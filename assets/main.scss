@@ -1,9 +1,9 @@
 ---
 ---
 
-$text-color: #46433A;
-$anchor-text-color: #CE534D;
-$background-color: #F1EED9;
+$text-color: #FFFFFF; //#46433A;
+$anchor-text-color: #A6DDFF; //#CE534D;
+$background-color: #005488; //#F1EED9;
 
 body {
 	font-family: 'Vollkorn', serif;
@@ -45,7 +45,7 @@ a:hover {
 /* override the left margin added by font awesome for the main content list,
 since it must be aligned with the content */
 .fa-ul.main-list {
-	margin-left: 0;
+	margin-left: 10%;
 }
 
 /* list icons */
@@ -116,7 +116,7 @@ footer {
 	/* wrapper stays 480px wide past 480px wide and is kept centered */
 	.wrapper {
 		width: 480px;
-		margin: 10% auto 0 auto;
+		margin: 15% auto 0 auto;
 	}
 }
 
@@ -126,6 +126,10 @@ footer {
 	to accomodate both the header column and the content column */
 	.wrapper {
 		width: 680px;
+	}
+
+	.fa-ul.main-list {
+	margin-left: 0;
 	}
 
 	/* the header column stays left and has a dynamic width with all contents
@@ -145,6 +149,6 @@ footer {
 	main {
 		width: 46%;
 		margin-left: 54%;
-		padding: 0;
+		padding: 10% 0;
 	}
 }
