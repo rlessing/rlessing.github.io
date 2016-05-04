@@ -16,11 +16,10 @@ layout: base
         {% if site.compass.tagline %}
         <div class="tagline-container"><p>{{ site.compass.tagline }}</p></div>
         {% endif %}
-        <div class="tagline-container"><p>I'm a junior at Brown University, studying applied math and economics.</p></div>
+        <div class="tagline-container"><p>{{ site.compass.description }}</p></div>
     </header>
     <main>
       {% if site.compass.include_content %}
-
       <div class="content">
         {% include content.html %}
       </div>
