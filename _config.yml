@@ -18,9 +18,9 @@ compass:
   # Tracking Code to that file.
   include_analytics: true
 
-  meta_description: "Associate at J.P. Morgan, Brown Univerity '17. Email: ryan_lessing@alumni.brown.edu · LinkedIn: linkedin.com/in/ryanlessing"
+  meta_description: "Incoming J.D. Candidate at Yale Law School, Ex Associate at J.P. Morgan. Email: ryan.lessing@yale.edu · LinkedIn: linkedin.com/in/ryanlessing"
 
-  description: "I'm an associate in Fixed Income Strategy at J.P. Morgan, focused on short-term fixed income markets. <br/></br> I graduated from Brown University with an Sc.B. in Applied Math-Economics in 2017."
+  description: "I'm an incoming J.D. candidate at Yale Law School, and was formerly an associate in Fixed Income Strategy at J.P. Morgan, focused on short-term fixed income markets. <br/></br> I graduated from Brown University with an Sc.B. in Applied Math-Economics."
 
 # Dependencies
 markdown: kramdown
